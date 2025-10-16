@@ -24,6 +24,7 @@ Un agent d’automatisation (comme ArgoCD ou FluxCD) se charge de synchroniser l
 ## Diagramme
 
 ```mermaid
+%%{init: {"theme": "light"}}%%
 flowchart LR
     subgraph Dev["👨‍💻 Développeur"]
         C[Commit / Merge Request]
